@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Happy Paws</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="w3-light-white w3-margin">
+
+    <!-- Navigation bar with links -->
+    <div class="w3-bar w3-white w3-text-black">
+        <h2 class="w3-left w3-tag w3-pale-red w3-round">HAPPY PAWS</h2>
+        <a href="#Contact" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">CONTACT</a>
+        <a href="#Activities" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">ACTIVITIES</a>
+        <a href="#Trainers" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">TRAINERS</a>
+        <a href="#Home" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">HOME</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-medium w3-hide-large" style="margin-top:10px;" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div id="demo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-small">
+        <a href="#Home" class="w3-bar-item w3-button">HOME</a>
+        <a href="#Trainers" class="w3-bar-item w3-button">TRAINERS</a>
+        <a href="#Activities" class="w3-bar-item w3-button">ACTIVITIES</a>
+        <a href="#Contact" class="w3-bar-item w3-button">CONTACT</a>
+    </div>
+
+    <!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+    <div class="w3-content" style="max-width:1600px">
+
+        <!-- Image header -->
+        <header class="w3-display-container w3-wide" style="padding-bottom:32px;" id="Home">
+            <img class="w3-image" src="https://images.unsplash.com/photo-1605001011156-cbf0b0f67a51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="Photo by Jamie Street" width="1600" height="1060">
+            <div class="w3-display-left w3-padding-large">
+                <h1 class="w3-text-white">DOG CARETAKERS</h1>
+                <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>NEW FOUNDLAND</b></h1>
+                <h6><button class="w3-button w3-round w3-pale-red w3-padding-large w3-large w3-hover-opacity-off"><a href="#Contact">BOOK NOW</a></button></h6>
+            </div>
+        </header>
+
+        <!-- Grid / Trainers section -->
+        <div class="w3-row-padding" id="Trainers">
+            <div class="w3-center w3-padding-32">
+                <h2 class="w3-wide w3-center">TRAINERS</h2>
+                <p class="w3-opacity w3-center"><i>The caretakers</i></p><br>
+                <p class="w3-white w3-text-black w3-left-align">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra rhoncus suscipit. Integer eget leo pretium, vulputate velit sit amet, aliquam est. Pellentesque a malesuada orci, at rhoncus enim. Suspendisse at dictum arcu. Etiam tempus varius
+                    sem, at pretium augue fringilla et. Curabitur tempus sollicitudin congue. Aliquam in malesuada eros. Nunc ullamcorper sagittis augue a ornare. Aenean faucibus finibus sollicitudin. Nullam interdum tellus mauris, et mattis libero accumsan
+                    vitae. Suspendisse et dui accumsan, lacinia leo in, aliquam felis. Aliquam tortor tellus, egestas tristique orci at, rutrum lacinia orci.
+                </p>
+            </div>
+
+
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card-4">
+                    <img src="https://images.unsplash.com/photo-1506993708131-b0bf29d16b76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80" alt="Photo by Sam manns" style="width:100%">
+                    <div class="w3-container">
+                        <h3>Jane Cormick</h3>
+                        <p class="w3-opacity">CEO & Founder</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p><button class="w3-button w3-round w3-pale-red w3-block"><a href="#Contact">BOOK NOW</a></button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card-4">
+                    <img src="https://images.unsplash.com/photo-1553322378-eb94e5966b0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Photo by Manuel Meza" style="width:100%">
+                    <div class="w3-container">
+                        <h3>Kristen Arnheim</h3>
+                        <p class="w3-opacity">Dog Walker & Trainer</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p><button class="w3-button w3-round w3-pale-red w3-block"><a href="#Contact">BOOK NOW</a></button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card-4">
+                    <img src="https://images.unsplash.com/photo-1539440860461-f30442bf7ab6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="Photo by Wieger Stienstra" style="width:100%">
+                    <div class="w3-container">
+                        <h3>Ola Truntwistle</h3>
+                        <p class="w3-opacity">Dog Trainer & Hairdresser</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p><button class="w3-button w3-round w3-pale-red w3-block"><a href="#Contact">BOOK NOW</a></button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Activities section -->
+        <div class="w3-white" id="Activities">
+            <div class="w3-container">
+                <div class="w3-center w3-padding-32">
+                    <h2 class="w3-wide">ACTIVITIES</h2>
+                    <p class="w3-opacity"><i>Find the right activity for your dog</i></p><br>
+                    <p class="w3-left-align w3-white w3-text-black">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra rhoncus suscipit. Integer eget leo pretium, vulputate velit sit amet, aliquam est. Pellentesque a malesuada orci, at rhoncus enim. Suspendisse at dictum arcu. Etiam tempus varius
+                        sem, at pretium augue fringilla et. Curabitur tempus sollicitudin congue. Aliquam in malesuada eros. Nunc ullamcorper sagittis augue a ornare. Aenean faucibus finibus sollicitudin. Nullam interdum tellus mauris, et mattis libero
+                        accumsan vitae. Suspendisse et dui accumsan, lacinia leo in, aliquam felis. Aliquam tortor tellus, egestas tristique orci at, rutrum lacinia orci.
+                    </p>
+                </div>
+
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-third">
+                        <img src="https://images.unsplash.com/photo-1611601303737-6496949997cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Photo by Meritt Thomas" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Dog Walking</b></p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="w3-button w3-round w3-pale-red w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">LEARN MORE</button>
+                        </div>
+                    </div>
+                    <div class="w3-third">
+                        <img src="https://images.unsplash.com/photo-1542583387-a3955a8b1d2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Photo by Humphrey Muleba" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Dog Training</b></p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="w3-button w3-round w3-pale-red w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">LEARN MORE</button>
+                        </div>
+                    </div>
+                    <div class="w3-third">
+                        <img src="https://images.unsplash.com/photo-1628639423534-a0ee52b9db19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Photo by Marcos Ferreira" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Dog Haircut</b></p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="w3-button w3-round w3-pale-red w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">LEARN MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="w3-white" id="Contact">
+            <div class="w3-container w3-padding-32">
+                <div class="w3-center w3-padding-32">
+                    <h2 class="w3-wide">CONTACT</h2>
+                    <p class="w3-opacity"><i>Book now or just send us a message</i></p><br>
+                    <p class="w3-white w3-text-black w3-left-align">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra rhoncus suscipit. Integer eget leo pretium, vulputate velit sit amet, aliquam est. Pellentesque a malesuada orci, at rhoncus enim. Suspendisse at dictum arcu. Etiam tempus varius
+                        sem, at pretium augue fringilla et. Curabitur tempus sollicitudin congue. Aliquam in malesuada eros. Nunc ullamcorper sagittis augue a ornare. Aenean faucibus finibus sollicitudin. Nullam interdum tellus mauris, et mattis libero
+                        accumsan vitae. Suspendisse et dui accumsan, lacinia leo in, aliquam felis. Aliquam tortor tellus, egestas tristique orci at, rutrum lacinia orci.
+                    </p>
+                </div>
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Service" required name="Service"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+                    <p><button class="w3-button w3-round w3-pale-red w3-block" type="submit">SEND MESSAGE</button></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+    <footer class="w3-container w3-pale-red w3-center w3-margin-top">
+        <p>Find us on social media.</p>
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-small">Adopt a pet today</p>
+        <a class="w3-button w3-round-xxlarge w3-small w3-white w3-margin-bottom" href="https://www.w3schools.com/spaces" target="_blank">Start now</a>
+        <!-- End footer -->
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("demo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
